@@ -86,6 +86,9 @@ button.addEventListener("click", function() {
 
     latText.innerText = lat.toFixed(2);
     longText.innerText = long.toFixed(2);
+  }, {
+    maximumAge: 0,
+    enableHighAccuracy: true
   });
 });
 
